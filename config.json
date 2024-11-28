@@ -1,0 +1,29 @@
+{
+  "ai": {
+    "bedrock_model_generate": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+    "bedrock_model_embed": "amazon.titan-embed-text-v2:0",
+    "bedrock_helper_module": "nlp.bedrock_helper",
+    "bedrock_helper_class": "BedrockHelper",
+    "context_retriever_class": "OpensearchContextRetriever",
+    "context_retriever_module": "nlp.opensearch_retriever",
+    "context_formatter_class": "ClaudeContextFormatter",
+    "context_formatter_module": "nlp.claude_context_formatter",
+    "prompt_table_key": "prompt_info_table.csv",
+    "prompt_template_id": "basic"
+  },
+  "aoss": {
+    "collection_id": "5ejffcf32u1aetirzx2j",
+    "open_search_ndx": "bedrock-knowledge-base-default-index",
+    "ndx_custom_fields": [],
+    "vector_field_name": "bedrock-knowledge-base-default-vector"
+  },
+  "aws": {
+    "s3_bucket_name": "archibot-code-047493842081-eu-central-1",
+    "region": "eu-central-1",
+    "base_docs_url": "https://archibot-documents-047493842081-eu-central-1.s3.eu-central-1.amazonaws.com/",
+    "base_s3_uri": "s3://archibot-documents-047493842081-eu-central-1/",
+    "base_url": " https://g88hkw6d77.execute-api.eu-central-1.amazonaws.com/default/"
+  },
+  "local": {
+  }
+}
